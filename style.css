@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&family=Poppins:wght@300&display=swap');
+
+@font-face {
+    font-family: 'MYYeongnamnu';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2206-02@1.0/MYYeongnamnu.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: '60sSTRIPE';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/60sSTRIPE.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "NanumBarunGothicYetHangul";
+}
+
+.nav {
+    display: flex;
+    background-color:black;
+}
+
+.nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    flex: 25%;
+    font-size: 1rem;
+}
+
+.navbar a:hover {
+    background-color: #000000;
+    color: skyblue;
+}
+
+#headline {
+    /*display: flex;*/
+    background-color: white;
+    /* height: fit-content; */
+    height: 100vh;
+    width: 100%;
+    
+    /* padding-bottom: 10px; */
+    /* padding-inline: 10%; */
+    /*border: 1px solid red;*/
+    
+}
+#headline h1{
+    /* font-family: '60sSTRIPE'; */
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.bigger_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*min-height: 80vh;*/
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.container {
+    width: 100%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    background-color: black;
+    /* padding-left: 2vh; */
+}
+
+.slider-wrapper .image-list{
+    display: grid;
+    gap: 2vh;
+    font-size: 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+    grid-template-columns: repeat(10, 1fr);
+    /* repeat(num_of_prj, 1fr) */
+}
+
+.slider-wrapper .image-list .image-item{
+    width: 400px;
+    height: 620px;
+    object-fit: cover;
+    /* 788 1238 ->  400 620 */
+    /* 325 600 */
+}
+
+.content-box{
+    background-color: gray;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+    
+    min-height: 8vh;
+    padding-top: 2vh;
+    border-top: 5px solid black;
+}
+
+.section{
+    margin-left: 1vh;
+    margin-right: 1vh;
+    height:5vh;
+}
+.section h1{
+    font-family: '60sSTRIPE';
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+.details{
+    background-color: whitesmoke;
+    padding: 1vh;
+    padding-top: 1.5vh;
+    min-height: 8vh;
+}
+.details h4{
+    color: darkgray;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+.paragraph{
+    padding-top: 0.8vh;
+    padding-left: 2vh;
+}
+.paragraph p{
+    font-size: 1.15em;
+}
+.paragraph a{
+    color: black;
+    text-decoration: none;
+}
